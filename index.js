@@ -56,30 +56,33 @@
 // console.log(obj.mydata);
 
 
-const user= [
-    {
-    id:1,
-    name:"hii",
-    loc:"hyd"
-},
-{
+// const user= [
+//     {
+//     id:1,
+//     name:"hii",
+//     loc:"hyd"
+// },
+// {
 
-    id:2,
-    name:"bye",
-    loc :"knl"
-}
-];
+//     id:2,
+//     name:"bye",
+//     loc :"knl"
+// }
+// ];
 
-for (const element of user) {
-    for (const key in element) {
-        if (!Object.hasOwn(element, key)) continue;
+// for (const element of user) {
+//     for (const key in element) {
+//         if (!Object.hasOwn(element, key)) continue;
         
-        //const element = object[key];
-        console.log(element[key])
+//         //const element = object[key];
+//         console.log(element[key])
         
-    }
-}
+//     }
+// }
 //console.log(user[0].name)
+let name = "sai";
+let age = 22;
+console.log(`My name is ${name}. i am ${age} old `);
 
 
 
