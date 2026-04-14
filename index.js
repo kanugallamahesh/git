@@ -87,11 +87,17 @@
 //DOM in JS
 
 //console.log(document.body);
-let babu=document.getElementById("babu");
-console.log(babu);
+// let babu=document.getElementById("babu");
+// console.log(babu);
 
-babu.innerText="<b>hello</b>";
-babu.innerHTML="<b>hello</b>";
+// babu.innerText="<b>hello</b>";
+// babu.innerHTML="<b>hello</b>";
+
+let boxes=document.getElementsByClassName("box");
+let para=document.getElementsByClassName("para");
+
+boxes[1].innerHTML="ALLU BHAIIIII";
+para[0].innerHTML="haloooo";
 
 
 
