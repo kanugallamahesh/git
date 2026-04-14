@@ -80,9 +80,11 @@
 //     }
 // }
 //console.log(user[0].name)
-let name = "sai";
+let nam = "sai";
 let age = 22;
-console.log(`My name is ${name}. i am ${age} old `);
+console.log(`My name is ${nam}. i am ${age} old `);
+
+//DOM in JS
 
 
 
