@@ -80,12 +80,18 @@
 //     }
 // }
 //console.log(user[0].name)
-let nam = "sai";
-let age = 22;
-console.log(`My name is ${nam}. i am ${age} old `);
+// let nam = "sai";
+// let age = 22;
+// console.log(`My name is ${nam}. i am ${age} old `);
 
 //DOM in JS
 
+//console.log(document.body);
+let babu=document.getElementById("babu");
+console.log(babu);
+
+babu.innerText="<b>hello</b>";
+babu.innerHTML="<b>hello</b>";
 
 
 
