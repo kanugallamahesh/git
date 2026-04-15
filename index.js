@@ -93,13 +93,35 @@
 // babu.innerText="<b>hello</b>";
 // babu.innerHTML="<b>hello</b>";
 
-let boxes=document.getElementsByClassName("box");
-let para=document.getElementsByClassName("para");
+// let boxes=document.getElementsByClassName("box2");
+// let para=document.getElementsByClassName("para");
 
-boxes[1].innerHTML="ALLU BHAIIIII";
-para[0].innerHTML="haloooo";
-
-
+// boxes[0].innerHTML="ALLU BHAIIIII";
+// para[0].innerHTML="haloooo";
+let b = true;
+const myfunc = () => {
+    let display = document.getElementById("display");
+    //display.innerHTML = display.innerHTML === "Hello" ? "Bye" : "Hello";
+    // if(display.innerHTML === "hello" ){
+    //     display.innerHTML = "Bye"
+    //      display.style.color = "red";
+    // }
+    // else{
+    //     display.innerHTML = "hello"
+    //      display.style.color = "blue";
+    // }
+    // display.style.color = "red";
+    if(b){
+        display.src = "https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?cs=srgb&dl=pexels-samandgos-709552.jpg&fm=jpg";
+        b = false;
+    }
+    else{
+        display.src = "https://tse2.mm.bing.net/th/id/OIP.7cRYFyLoDEDh4sRtM73vvwHaDg?rs=1&pid=ImgDetMain&o=7&rm=3";
+        b = true;
+    }
+   
+    
+};
 
 
 
